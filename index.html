@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Lab</title>
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__left">
+                <span class="material-symbols-outlined">menu</span>
+                <div class="logo">analog lab <span>intro</span></div>
+            </div>
+            <div class="header__center">
+                <div class="input-box">
+                    <span class="material-symbols-outlined" id="home-page-btn">overview_key</span>
+                    <div class="input-box-center">
+                        <span class="material-symbols-outlined" id="favorite">favorite</span>
+                        <span class="bank-name">80's Arp Synth I</span>
+                    </div>
+                    <div class="arrows">
+                        <!-- <span class="material-symbols-outlined">arrow_drop_up</span> -->
+                        <!-- <span class="material-symbols-outlined">arrow_drop_down</span> -->
+                        <span class="material-symbols-outlined">expand_less</span>
+                        <span class="material-symbols-outlined">expand_more</span>
+                    </div>
+                </div>
+            </div>
+            <div class="header__right">
+                <span class="material-symbols-outlined">settings</span>
+            </div>
+        </header>
+
+        <div class="main">
+            <section class="main-home" id="play-content">
+                <div class="main-home__wrappper">
+                    <h2 class="title">sequence</h2>
+                    <div class="nav">
+                        <span class="material-symbols-outlined">arrow_back_ios</span>
+                        <h3 class="subtitle">80's Arp Synth I</h3>
+                        <span class="material-symbols-outlined">arrow_forward_ios</span>
+                    </div>
+                </div>
+                <div class="controls">
+                    <div class="controls-top">
+                        <div class="controls-top__left">
+                            <div class="encoder-box">
+                                <div class="encoder"></div>
+                                <div class="encoder-subtitle">Brightness</div>
+                            </div>
+                            <div class="encoder-box">
+                                <div class="encoder"></div>
+                                <div class="encoder-subtitle">Timbre</div>
+                            </div>
+                            <div class="encoder-box">
+                                <div class="encoder"></div>
+                                <div class="encoder-subtitle">Time</div>
+                            </div>
+                            <div class="encoder-box">
+                                <div class="encoder"></div>
+                                <div class="encoder-subtitle">Movement</div>
+                            </div>
+                            <div class="encoder-box">
+                                <div class="encoder"></div>
+                                <div class="encoder-subtitle">Chorus Mix</div>
+                            </div>
+                            <div class="encoder-box">
+                                <div class="encoder"></div>
+                                <div class="encoder-subtitle">Phaser Mix</div>
+                            </div>
+                            <div class="encoder-box">
+                                <div class="encoder"></div>
+                                <div class="encoder-subtitle">Delay Volume</div>
+                            </div>
+                            <div class="encoder-box">
+                                <div class="encoder"></div>
+                                <div class="encoder-subtitle">Reverb Volume</div>
+                            </div>
+                        </div>
+                        <div class="controls-top__right">
+                            <div class="slider-box">
+                                <div class="slider" id="master-bass"></div>
+                                <div class="slider-subtitle">Master Bass</div>
+                            </div>
+                            <div class="slider-box">
+                                <div class="slider" id="master-mid"></div>
+                                <div class="slider-subtitle">Master Mid</div>
+                            </div>
+                            <div class="slider-box">
+                                <div class="slider" id="master-treble"></div>
+                                <div class="slider-subtitle">Master Treble</div>
+                            </div>
+                            <div class="slider-box">
+                                <div class="slider" id="master"></div>
+                                <div class="slider-subtitle">Master</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="controls-bottom">
+                        <div class="controls-bottom__left">
+                            <div class="wheel" id="pitch"></div>
+                            <div class="wheel" id="modulation"></div>
+                        </div>
+                        <div class="controls-bottom__right">
+                            <div class="midi-keyboard white">
+                                <div class="key"></div>
+                                <div class="key black"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key black"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                            </div>
+                            <div class="midi-keyboard black">
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key visibility-hidden"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key"></div>
+                                <div class="key display-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="main display-none" id="home-page">
+
+                <section class="left" id="home-page">
+                    <ul class="menu">
+                        <li class="menu__item selected">
+                            <a href="#">
+                                <span class="material-symbols-outlined">home</span>
+                                <div class="menu__item-text">home</div>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">
+                                <span class="material-symbols-outlined">search</span>
+                                <div class="menu__item-text">explore</div>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">
+                                <span class="material-symbols-outlined">stacks</span>
+                                <div class="menu__item-text">sound banks</div>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">
+                                <span class="material-symbols-outlined">shopping_bag</span>
+                                <div class="menu__item-text">store</div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="content">
+                    <div class="content__wrapper" id="home">
+                        <div class="content__top">
+                            <h2 class="content__title">Welcome to Analog Lab Intro</h2>
+                            <div class="input-box">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" placeholder="Search Presets" id="search-1">
+                                <span>Clear All</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content__wrapper display-none" id="explore">
+                        <div class="content__top">
+                            <h2 class="content__title">Explore</h2>
+                            <div class="input-box">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" placeholder="Search Presets" id="search-2">
+                                <span>Clear All</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content__wrapper display-none" id="sound-banks">
+                        <div class="content__top">
+                            <h2 class="content__title">Sound Banks</h2>
+                        </div>
+                        <ul class="sound__list">
+                            <li class="sound__list-item">
+                                <img src="./img/bank-01.jpg" alt="pic">
+                                <p>Deserted Lands</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="./img/bank-02.jpg" alt="pic">
+                                <p>Euphoric Grooves</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="./img/bank-03.jpg" alt="pic">
+                                <p>JSPA</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/400" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/300" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/200" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/201" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/202" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/203" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/204" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/205" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/206" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/207" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/208" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/209" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/210" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/211" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="https://picsum.photos/212" alt="pic">
+                                <p>Sound Name</p>
+                            </li>
+                        </ul>
+                        <hr>
+                        <ul class="sound__list default">
+                            <li class="sound__list-item">
+                                <img src="./img/bank-user.jpg" alt="pic">
+                                <p>User</p>
+                            </li>
+                            <li class="sound__list-item">
+                                <img src="./img/bank-factory.jpg" alt="pic">
+                                <p>Factory</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="content__wrapper display-none" id="store">
+                        <div class="content__top">
+                            <h2 class="content__title">Store</h2>
+                            <div class="input-box">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" placeholder="Search Presets" id="search-3">
+                                <span>Clear All</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+        <footer class="footer"></footer>
+
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/fac5d2f90e.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
