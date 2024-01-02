@@ -62,3 +62,24 @@ menuItem.forEach((element, index) => {
 favoriteBtn.addEventListener('mousedown', (event) => {
     event.currentTarget.classList.toggle('active')
 })
+
+
+function pressedKey(buttonNumber) {
+    console.log(buttonNumber);
+    switch (buttonNumber) {
+        case 0:
+            console.log('this is H note');
+            break
+        default:
+            console.log('not set yet');
+            break
+    }
+
+}
+
+const keys = document.querySelectorAll('.key')
+keys.forEach((element, index) => {
+    element.addEventListener('mousedown', event => {
+        pressedKey(index)
+    })
+})
